@@ -6,13 +6,20 @@ export default function Home() {
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
+         <div className="flex justify-center items-center mb-6">
+        <img 
+        src="/Gropi.png" 
+        alt="Code Club Maskottchen" 
+        className="w-24 h-24 md:w-32 md:h-36 mr-6"
+        />
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
             Code Club
             <span className="block text-indigo-600">Gropiusstadt</span>
           </h1>
+          </div>
           <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Lerne programmieren in der Stadtbibliothek Gertrud-Junge-Bibliothek. 
-            Für Kinder und Jugendliche von 8 bis 18 Jahren.
+            Lern kostenlos programmieren in der Gertrud-Junge-Bibliothek. <br/>
+            Für Kinder und Jugendliche von 7 bis 17 Jahren.
           </p>
           <div className="flex justify-center">
             <a 
@@ -33,8 +40,9 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Was ist der Code Club?</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Ein kostenloser Programmierclub für Kinder und Jugendliche, 
-              wo wir gemeinsam die Welt der Informatik entdecken.
+              Code Club ist eine ehrenamtliche Initiative,
+              die Kindern und Jugendlichen ermöglicht,
+               in kostenlosen Nachmittags-Clubs spielerisch Programmieren zu lernen.
             </p>
           </div>
           
@@ -53,7 +61,7 @@ export default function Home() {
               <div className="bg-indigo-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl">🤝</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Gemeinsam lernen</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Gemeinsam</h3>
               <p className="text-gray-600">
                 In kleinen Gruppen unterstützen wir uns gegenseitig und entwickeln zusammen tolle Projekte.
               </p>
@@ -65,7 +73,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Eigene Projekte</h3>
               <p className="text-gray-600">
-                Spiele, Websites, Apps - deiner Kreativität sind keine Grenzen gesetzt!
+                Spiele, Websites, Apps - Bringe deine eigenen Ideen!
               </p>
             </div>
           </div>
@@ -76,9 +84,10 @@ export default function Home() {
       <section id="workshops" className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Unsere Workshops</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Wo?</h2>
             <p className="text-lg text-gray-600 mb-8">
-              Regelmäßige Termine in der Stadtbibliothek Gertrud-Junge-Bibliothek
+             Du findest uns während der Workshopzeiten in der Trude Jugend Bib am<br/>
+              📍 Bat-Yam-Platz 1, 12353 Berlin
             </p>
             <img 
               src="https://www.berlin.de/imgscaler/PBiZWWiSqrdSle-2fpkmzcw6ibkgG1vJg2x-ngvsTr8/rbig2zu1/L3N5czExLXByb2Qvc3RhZHRiaWJsaW90aGVrLW5ldWtvZWxsbi9fYXNzZXRzL2JpbGRlci9nZWJhZXVkZS9nZW1laW5zY2hhZnRzaGF1cy9naHNfYXVzc2VuYW5zaWNodC5qcGc.jpg?ts=1727249559"
@@ -89,14 +98,14 @@ export default function Home() {
           </div>
           
           <div className="bg-white rounded-lg shadow-lg p-8 text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Nächste Workshops</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Nächster Workshop</h3>
             <p className="text-gray-600 mb-6">
-              📍 Stadtbibliothek Gertrud-Junge-Bibliothek<br/>
-              🕐 Samstags 10:00 - 12:00 Uhr<br/>
-              👥 Für Kinder und Jugendliche von 8-18 Jahren
+              🕐 Donnerstag 16:30 - 18:30 Uhr<br/>
+              📆 05. Juni 2025<br/>
+              👥 Für Kinder und Jugendliche von 7-17 Jahren
             </p>
             <a 
-              href="https://pretix.eu/dojosw/" 
+              href="https://pretix.eu/dojosw/gjb02/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200"
