@@ -10,7 +10,7 @@ export default function Home() {
         <img 
         src="/Gropi.png" 
         alt="Code Club Maskottchen" 
-        className="w-24 h-24 md:w-32 md:h-36 mr-6"
+        className="w-24 h-24 md:w-32 md:h-36 mr-6 pb-2"
         />
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
             Code Club

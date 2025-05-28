@@ -14,9 +14,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Code Club Gropiusstadt - Programmieren lernen für Kinder und Jugendliche",
-  description: "Kostenloser Programmierclub für Kinder und Jugendliche von 8-18 Jahren in der Stadtbibliothek Gertrud-Junge-Bibliothek Berlin. Von Scratch bis Python - lerne programmieren in einer freundlichen Atmosphäre!",
+  description: "Kostenloser Programmierclub für Kinder und Jugendliche von 7-17 Jahren in der Stadtbibliothek Gertrud-Junge-Bibliothek Berlin. Von Scratch bis Python - lerne programmieren in einer freundlichen Atmosphäre!",
   keywords: "Programmieren, Kinder, Jugendliche, Berlin, Code Club, Scratch, Python, Gropiusstadt, Stadtbibliothek",
   authors: [{ name: "Code Club Gropiusstadt" }],
+  icons: {
+    icon: '/Gropi.png',
+    shortcut: '/Gropi.png',
+    apple: '/Gropi.png',
+  },
   openGraph: {
     title: "Code Club Gropiusstadt",
     description: "Programmieren lernen für Kinder und Jugendliche in Berlin",
