@@ -1,0 +1,149 @@
+import Link from "next/link";
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      {/* Hero Section */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
+            Code Club
+            <span className="block text-indigo-600">Gropiusstadt</span>
+          </h1>
+          <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+            Lerne programmieren in der Stadtbibliothek Gertrud-Junge-Bibliothek. 
+            Für Kinder und Jugendliche von 8 bis 18 Jahren.
+          </p>
+          <div className="flex justify-center">
+            <a 
+              href="https://pretix.eu/dojosw/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 transform hover:scale-105"
+            >
+              Workshop Tickets 🎫
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Was ist der Code Club?</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Ein kostenloser Programmierclub für Kinder und Jugendliche, 
+              wo wir gemeinsam die Welt der Informatik entdecken.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="text-center p-6">
+              <div className="bg-indigo-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">💻</span>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Programmieren lernen</h3>
+              <p className="text-gray-600">
+                Von Scratch bis Python - wir starten bei den Grundlagen und arbeiten uns zu echten Programmen vor.
+              </p>
+            </div>
+            
+            <div className="text-center p-6">
+              <div className="bg-indigo-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">🤝</span>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Gemeinsam lernen</h3>
+              <p className="text-gray-600">
+                In kleinen Gruppen unterstützen wir uns gegenseitig und entwickeln zusammen tolle Projekte.
+              </p>
+            </div>
+            
+            <div className="text-center p-6">
+              <div className="bg-indigo-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">🚀</span>
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Eigene Projekte</h3>
+              <p className="text-gray-600">
+                Spiele, Websites, Apps - deiner Kreativität sind keine Grenzen gesetzt!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Workshops Section */}
+      <section id="workshops" className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Unsere Workshops</h2>
+            <p className="text-lg text-gray-600 mb-8">
+              Regelmäßige Termine in der Stadtbibliothek Gertrud-Junge-Bibliothek
+            </p>
+            <img 
+              src="https://www.berlin.de/imgscaler/PBiZWWiSqrdSle-2fpkmzcw6ibkgG1vJg2x-ngvsTr8/rbig2zu1/L3N5czExLXByb2Qvc3RhZHRiaWJsaW90aGVrLW5ldWtvZWxsbi9fYXNzZXRzL2JpbGRlci9nZWJhZXVkZS9nZW1laW5zY2hhZnRzaGF1cy9naHNfYXVzc2VuYW5zaWNodC5qcGc.jpg?ts=1727249559"
+              alt="Stadtbibliothek Gertrud-Junge-Bibliothek" 
+              className="w-full max-w-2xl mx-auto rounded-lg shadow-lg mb-8"
+              style={{aspectRatio: '16/9', objectFit: 'cover', backgroundColor: '#f3f4f6'}}
+            />
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-lg p-8 text-center">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Nächste Workshops</h3>
+            <p className="text-gray-600 mb-6">
+              📍 Stadtbibliothek Gertrud-Junge-Bibliothek<br/>
+              🕐 Samstags 10:00 - 12:00 Uhr<br/>
+              👥 Für Kinder und Jugendliche von 8-18 Jahren
+            </p>
+            <a 
+              href="https://pretix.eu/dojosw/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200"
+            >
+              Jetzt anmelden
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-3 gap-8">
+            <div>
+              <h3 className="text-xl font-bold mb-4">Code Club Gropiusstadt</h3>
+              <p className="text-gray-300">
+                Programmieren lernen macht Spaß! Komm vorbei und entdecke die Welt des Codes.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-bold mb-4">Kontakt</h3>
+              <p className="text-gray-300">
+                Stadtbibliothek Gertrud-Junge-Bibliothek<br/>
+                Berlin, Gropiusstadt
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-bold mb-4">Links</h3>
+              <div className="space-y-2">
+                <a href="https://pretix.eu/dojosw/" target="_blank" rel="noopener noreferrer" className="block text-gray-300 hover:text-white">
+                  Workshop Anmeldung
+                </a>
+                <Link href="/impressum" className="block text-gray-300 hover:text-white">
+                  Impressum
+                </Link>
+              </div>
+            </div>
+          </div>
+          
+          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+            <p>&copy; 2024 Code Club Gropiusstadt. Alle Rechte vorbehalten.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
