@@ -4,35 +4,48 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Hero Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center">
-         <div className="flex justify-center items-center mb-6">
-        <img 
+      <section 
+  className="py-20 px-4 sm:px-6 lg:px-8 relative"
+  aria-hidden="true"
+  style={{
+    backgroundImage: 'url(https://bilder.deutschlandfunk.de/FI/LE/_0/18/FILE_0189365cbc72afa52bb28d38bda9b8a8/imago91557508h-jpg-100-1920x1080.jpg)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat'
+  }}
+>
+  {/* Overlay für Transparenz */}
+  <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-300 opacity-90"></div>
+  
+  {/* Content */}
+  <div className="relative z-10 max-w-4xl mx-auto text-center">
+    <div className="flex justify-center items-center mb-6">
+      <img 
         src="/Gropi.png" 
         alt="Code Club Maskottchen" 
         className="w-24 h-24 md:w-32 md:h-36 mr-6 pb-2"
-        />
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-            Code Club
-            <span className="block text-indigo-600">Gropiusstadt</span>
-          </h1>
-          </div>
-          <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Lern kostenlos programmieren in der Gertrud-Junge-Bibliothek. <br/>
-            Für Kinder und Jugendliche von 7 bis 17 Jahren.
-          </p>
-          <div className="flex justify-center">
-            <a 
-              href="https://pretix.eu/dojosw/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 transform hover:scale-105"
-            >
-              Workshop Tickets 🎫
-            </a>
-          </div>
-        </div>
-      </section>
+      />
+      <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
+        Code Club
+        <span className="block text-indigo-600">Gropiusstadt</span>
+      </h1>
+    </div>
+    <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+      Lern kostenlos programmieren in der Gertrud-Junge-Bibliothek. <br/>
+      Für Kinder und Jugendliche von 7 bis 17 Jahren.
+    </p>
+    <div className="flex justify-center">
+      <a 
+        href="https://pretix.eu/dojosw/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 transform hover:scale-105"
+      >
+        Workshop Tickets 🎫
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* About Section */}
       <section id="about" className="py-16 bg-white">
@@ -129,10 +142,12 @@ export default function Home() {
             
             <div>
               <h3 className="text-xl font-bold mb-4">Kontakt</h3>
-              <p className="text-gray-300">
-                Stadtbibliothek Gertrud-Junge-Bibliothek<br/>
-                Berlin, Gropiusstadt
-              </p>
+              <a className="text-gray-300" href="mailto:christianraisch@gmail.com">
+               christianraisch@gmail.com <br/>
+              </a>
+              <a className="text-gray-300" href="tel:015781712474">
+              +49 15781712474
+              </a>
             </div>
             
             <div>

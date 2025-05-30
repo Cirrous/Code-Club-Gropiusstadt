@@ -13,12 +13,11 @@ export default function Impressum() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Verantwortlich für den Inhalt</h2>
               <div className="text-gray-700 space-y-2">
                 <p><strong>Code Club Gropiusstadt</strong></p>
-                <p>Verantwortliche Person: Max Mustermann</p>
-                <p>Adresse: Stadtbibliothek Gertrud-Junge-Bibliothek</p>
-                <p>Musterstraße 123</p>
-                <p>12345 Berlin, Deutschland</p>
-                <p>E-Mail: info@codeclib-gropiusstadt.de</p>
-                <p>Telefon: +49 30 12345678</p>
+                <p>Verantwortliche Person: Christian Raisch</p>
+                <p>Zwergasternweg 14</p>
+                <p>12357 Berlin, Deutschland</p>
+                <p>E-Mail: christianraisch@mail.com</p>
+                <p>Telefon: +49 15781712474</p>
               </div>
             </section>
 
@@ -26,10 +25,10 @@ export default function Impressum() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Veranstaltungsort</h2>
               <div className="text-gray-700 space-y-2">
                 <p><strong>Stadtbibliothek Gertrud-Junge-Bibliothek</strong></p>
-                <p>Lipschitzallee 27</p>
+                <p>Bat-Yam-Platz 1, 12353 Berlin</p>
                 <p>12353 Berlin</p>
-                <p>Telefon: +49 30 90239-4554</p>
-                <p>E-Mail: info@stadtbibliothek-neukoelln.de</p>
+                <p>Telefon: +49 1511 5075002</p>
+                <p>E-Mail: gemeinschaftshaus@stadtbibliothek-neukoelln.de</p>
               </div>
             </section>
 
