@@ -36,7 +36,7 @@ export default function Home() {
     </p>
     <div className="flex justify-center">
       <a 
-        href="https://pretix.eu/dojosw/" 
+        href="https://pretix.eu/dojosw/gjb02/" 
         target="_blank" 
         rel="noopener noreferrer"
         className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 transform hover:scale-105"
