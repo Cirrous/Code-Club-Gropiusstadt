@@ -47,6 +47,33 @@ export default function Home() {
   </div>
 </section>
 
+{/* Social Media Section */}
+<section className="py-12 bg-gradient-to-br from-blue-50 to-indigo-100">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 className="text-2xl font-bold text-gray-900 mb-6">Folge uns für mehr Informationen!</h2>
+    <div className="flex justify-center space-x-8">
+      <a 
+        href="https://www.instagram.com/code_club_gropiusstadt/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="flex items-center bg-white hover:bg-gray-50 text-gray-900 font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-200 transform hover:scale-105"
+      >
+        <span className="text-2xl mr-3">📸</span>
+        Instagram
+      </a>
+      <a 
+        href="https://facebook.com/code_club_gropiusstadt/" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="flex items-center bg-white hover:bg-gray-50 text-gray-900 font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-200 transform hover:scale-105"
+      >
+        <span className="text-2xl mr-3">👥</span>
+        Facebook
+      </a>
+    </div>
+  </div>
+</section>
+
       {/* About Section */}
       <section id="about" className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
