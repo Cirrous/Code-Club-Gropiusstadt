@@ -37,7 +37,7 @@ export default function Home() {
     </p>
     <div className="flex justify-center">
       <a 
-        href="https://pretix.eu/dojosw/gjb02/" 
+        href="https://pretix.eu/code-club-gropiusstadt/" 
         target="_blank" 
         rel="noopener noreferrer"
         className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 transform hover:scale-105"
@@ -146,7 +146,7 @@ export default function Home() {
               👥 Für Kinder und Jugendliche von 7-17 Jahren
             </p>
             <a 
-              href="https://pretix.eu/dojosw/gjb02/" 
+              href="https://pretix.eu/dojosw/gjb03/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200"
