@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Link from "next/link"
+import { FaInstagram, FaFacebook } from 'react-icons/fa'
 
 export default function Home() {
   return (
@@ -58,7 +59,7 @@ export default function Home() {
         rel="noopener noreferrer"
         className="flex items-center bg-white hover:bg-gray-50 text-gray-900 font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-200 transform hover:scale-105"
       >
-        <span className="text-2xl mr-3">📸</span>
+        <FaInstagram className="text-2xl mr-3 text-pink-500" />
         Instagram
       </a>
       <a 
@@ -67,7 +68,7 @@ export default function Home() {
         rel="noopener noreferrer"
         className="flex items-center bg-white hover:bg-gray-50 text-gray-900 font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-200 transform hover:scale-105"
       >
-        <span className="text-2xl mr-3">👥</span>
+        <FaFacebook className="text-2xl mr-3 text-blue-600" />
         Facebook
       </a>
     </div>
