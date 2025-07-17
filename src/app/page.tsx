@@ -142,7 +142,7 @@ export default function Home() {
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Nächster Workshop</h3>
             <p className="text-gray-600 mb-6">
               🕐 Donnerstag 16:30 - 18:30 Uhr<br/>
-              📆 26. Juni 2025<br/>
+              📆 24. Juli 2025<br/>
               👥 Für Kinder und Jugendliche von 7-17 Jahren
             </p>
             <a 
