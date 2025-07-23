@@ -63,7 +63,7 @@ export default function Home() {
         Instagram
       </a>
       <a 
-        href="https://facebook.com/code_club_gropiusstadt/" 
+        href="https://www.facebook.com/profile.php?id=61577382674677" 
         target="_blank" 
         rel="noopener noreferrer"
         className="flex items-center bg-white hover:bg-gray-50 text-gray-900 font-semibold py-3 px-6 rounded-lg shadow-md transition-all duration-200 transform hover:scale-105"
