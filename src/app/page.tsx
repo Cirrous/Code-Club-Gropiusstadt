@@ -2,40 +2,57 @@ import Link from "next/link"
 import { FaInstagram, FaFacebook } from 'react-icons/fa'
 
 export default function Home() {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    "name": "Code Club Gropiusstadt",
-    "description": "Kostenloser Programmierclub für Kinder und Jugendliche von 7-17 Jahren in Berlin",
-    "url": "https://code-club-gropiusstadt.de",
-    "logo": "https://code-club-gropiusstadt.de/Gropi.png",
-    "image": "https://code-club-gropiusstadt.de/Gropi.png",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Bat-Yam-Platz 1",
-      "addressLocality": "Berlin",
-      "postalCode": "12353",
-      "addressCountry": "DE"
+  const structuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "Code Club Gropiusstadt",
+      "alternateName": "Code Club Berlin",
+      "description": "Kostenloser Programmierclub für Kinder und Jugendliche von 7-17 Jahren in Berlin",
+      "url": "https://code-club-gropiusstadt.de",
+      "logo": "https://code-club-gropiusstadt.de/Gropi.png",
+      "image": "https://code-club-gropiusstadt.de/Gropi.png",
+      "foundingDate": "2024",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bat-Yam-Platz 1",
+        "addressLocality": "Berlin",
+        "addressRegion": "Berlin",
+        "postalCode": "12353",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.4272,
+        "longitude": 13.4286
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+49-15781712474",
+        "email": "christianraisch@gmail.com",
+        "contactType": "customer service",
+        "availableLanguage": ["German"]
+      },
+      "sameAs": [
+        "https://www.instagram.com/code_club_gropiusstadt/",
+        "https://www.facebook.com/profile.php?id=61577382674677"
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Berlin"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Children and Teenagers",
+        "suggestedMinAge": 7,
+        "suggestedMaxAge": 17
+      }
     },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+49-15781712474",
-      "email": "christianraisch@gmail.com",
-      "contactType": "customer service"
-    },
-    "sameAs": [
-      "https://www.instagram.com/code_club_gropiusstadt/",
-      "https://www.facebook.com/profile.php?id=61577382674677"
-    ],
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "EUR",
-      "description": "Kostenlose Programmier-Workshops für Kinder und Jugendliche"
-    },
-    "event": {
+    {
+      "@context": "https://schema.org",
       "@type": "Event",
-      "name": "Programmier-Workshop",
+      "name": "Programmier-Workshop - Code Club Gropiusstadt",
+      "description": "Kostenloser Programmier-Workshop für Kinder und Jugendliche. Lerne Scratch, Python und mehr!",
       "startDate": "2025-08-21T16:30:00+02:00",
       "endDate": "2025-08-21T18:30:00+02:00",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -49,14 +66,57 @@ export default function Home() {
           "addressLocality": "Berlin",
           "postalCode": "12353",
           "addressCountry": "DE"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 52.4272,
+          "longitude": 13.4286
         }
       },
       "organizer": {
         "@type": "Organization",
+        "name": "Code Club Gropiusstadt",
+        "url": "https://code-club-gropiusstadt.de"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://pretix.eu/dojosw/gjb03/"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Children and Teenagers",
+        "suggestedMinAge": 7,
+        "suggestedMaxAge": 17
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Programmieren lernen für Kinder",
+      "description": "Kostenloser Programmier-Kurs von Scratch bis Python für Kinder und Jugendliche",
+      "provider": {
+        "@type": "Organization",
         "name": "Code Club Gropiusstadt"
+      },
+      "educationalLevel": "Beginner",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Children and Teenagers",
+        "suggestedMinAge": 7,
+        "suggestedMaxAge": 17
+      },
+      "teaches": ["Scratch Programming", "Python Programming", "Web Development", "Game Development"],
+      "courseMode": "In-Person",
+      "locationCreated": {
+        "@type": "Place",
+        "name": "Berlin",
+        "addressCountry": "DE"
       }
     }
-  };
+  ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
@@ -213,7 +273,7 @@ export default function Home() {
               <p>👥 <strong>Zielgruppe:</strong> Für Kinder und Jugendliche von 7-17 Jahren</p>
             </div>
             <a 
-              href="https://pretix.eu/dojosw/gjb03/" 
+              href="https://pretix.eu/dojosw/gjb05/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200"
@@ -254,7 +314,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-bold mb-4">Links</h3>
               <div className="space-y-2">
-                <a href="https://pretix.eu/dojosw/" target="_blank" rel="noopener noreferrer" className="block text-gray-300 hover:text-white">
+                <a href="https://pretix.eu/code-club-gropiusstadt/" target="_blank" rel="noopener noreferrer" className="block text-gray-300 hover:text-white">
                   Workshop Anmeldung
                 </a>
                 <Link href="/impressum" className="block text-gray-300 hover:text-white">
