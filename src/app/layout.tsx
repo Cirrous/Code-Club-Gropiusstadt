@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   publisher: "Code Club Gropiusstadt",
   robots: "index, follow",
   icons: {
-    icon: '/Gropi.png',
+    icon: '/Gropi.png', // Fallback for browsers that don't support dynamic icons
     shortcut: '/Gropi.png',
-    apple: '/Gropi.png',
+    apple: '/Gropi.png', // Fallback for Apple devices
   },
   openGraph: {
     title: "Code Club Gropiusstadt - Programmieren lernen für Kinder und Jugendliche",
