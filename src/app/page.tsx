@@ -269,7 +269,7 @@ export default function Home() {
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Nächster Workshop</h3>
             <div className="text-gray-600 mb-6">
               <p className="mb-2">🕐 <strong>Zeit:</strong> Donnerstag 16:30 - 18:30 Uhr</p>
-              <p className="mb-2">📆 <strong>Datum:</strong> 21. August 2025</p>
+              <p className="mb-2">📆 <strong>Datum:</strong> 30. Oktober 2025</p>
               <p>👥 <strong>Zielgruppe:</strong> Für Kinder und Jugendliche von 7-17 Jahren</p>
             </div>
             <a 
