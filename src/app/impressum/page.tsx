@@ -16,7 +16,7 @@ export default function Impressum() {
                 <p>Verantwortliche Person: Christian Raisch</p>
                 <p>Zwergasternweg 14</p>
                 <p>12357 Berlin, Deutschland</p>
-                <p>E-Mail: christianraisch@mail.com</p>
+                <p>E-Mail: christianraisch@gmail.com</p>
                 <p>Telefon: +49 15781712474</p>
               </div>
             </section>

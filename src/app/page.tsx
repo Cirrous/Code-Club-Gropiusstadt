@@ -267,11 +267,14 @@ export default function Home() {
           
           <div className="bg-white rounded-lg shadow-lg p-8 text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Nächster Workshop</h3>
+            <h4 className="text-xl text-gray-900 mt-4 mb-4">Nächstes Jahr, bis dahin einen guten Rutsch und fröhliche Festtage 🎅🎄</h4>
+              {/*
             <div className="text-gray-600 mb-6">
               <p className="mb-2">🕐 <strong>Zeit:</strong> Donnerstag 16:30 - 18:30 Uhr</p>
               <p className="mb-2">📆 <strong>Datum:</strong> 30. Oktober 2025</p>
               <p>👥 <strong>Zielgruppe:</strong> Für Kinder und Jugendliche von 7-17 Jahren</p>
             </div>
+           
             <a 
               href="https://pretix.eu/dojosw/gjb05/" 
               target="_blank" 
@@ -281,6 +284,7 @@ export default function Home() {
             >
               Jetzt anmelden
             </a>
+             */}
           </div>
         </div>
       </section>
