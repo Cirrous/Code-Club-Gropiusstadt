@@ -268,7 +268,7 @@ export default function Home() {
           <div className="bg-white rounded-lg shadow-lg p-8 text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Alle Workshops</h3>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4">
               {[
                 "08.01.2026", "22.01.2026", "05.02.2026",
                 "19.02.2026", "05.03.2026", "19.03.2026",
